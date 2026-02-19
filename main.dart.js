@@ -31260,9 +31260,9 @@ s=1
 break
 case 1:return A.t(q,r)}})
 return A.u($async$aNS,r)},
-aOZ(){var s="https://nlfnprcvhvuhhazpnmxy.supabase.co"
+aOZ(){var s="https://ggihjvuqgcnwwvvqsorh.supabase.co"
 switch(0){case 0:return s}},
-aZx(){var s="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5sZm5wcmN2aHZ1aGhhemRubXh5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzc1NzI5NzAsImV4cCI6MjA1MzE0ODk3MH0.Bl9hXrvHYbFyAb3F7wGEHG6_hB5CYWH3hzxn8yOaM5A"
+aZx(){var s="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdnaWhqdnVxZ2Nud3d2dnFzb3JoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk0OTY1MjAsImV4cCI6MjA4NTA3MjUyMH0.VoyI9OS9FpzNYzxd4sddmYdKj_mk2slm8BwyMWaYHRM"
 switch(0){case 0:return s}},
 aOY(){switch(0){case 0:return"Vowy (DEV)"}}},B={}
 var w=[A,J,B]
