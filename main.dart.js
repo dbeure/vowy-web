@@ -110002,7 +110002,7 @@ g=h.w
 if(g==null)g=m
 else{s=k.k3
 s=g.bl(A.Z(153,s.p()>>>16&255,s.p()>>>8&255,s.p()&255))
-g=s}g=A.X("Wedding Planning Made Easy",m,m,m,m,g,B.cs,m,m)
+g=s}g=A.X("Wedding Planning Made Easy \xb7 v1",m,m,m,m,g,B.cs,m,m)
 s=A.cw(m,B.O,!1,m,!0,B.m,m,A.cD(),n.d,m,m,m,m,m,2,B.rG,B.t,!0,m,!0,!n.r,!1,m,B.L,m,m,m,m,B.kk,m,m,m,1,m,m,!1,"\u2022",m,m,m,m,m,!1,m,m,!1,m,!0,m,B.S,m,m,m,m,m,m,m,m,m,m,m,m,!0,B.G,m,B.U,m,m,m,m)
 r=A.cw(m,B.O,!1,m,!0,B.m,m,A.cD(),n.e,m,m,m,m,m,2,B.MW,B.t,!0,m,!0,!n.r,!1,m,B.L,m,m,m,m,m,m,m,m,1,m,m,!0,"\u2022",m,m,m,new A.azZ(n),m,!1,m,m,!1,m,!0,m,B.S,m,m,m,m,m,m,m,m,m,m,m,m,!0,B.G,m,B.U,m,m,m,m)
 q=n.r?m:n.gamp()
