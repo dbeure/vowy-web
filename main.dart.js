@@ -33687,7 +33687,7 @@ aYr(){var s="https://ggihjvuqgcnwwvvqsorh.supabase.co"
 switch(0){case 0:return s}},
 b9t(){var s="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdnaWhqdnVxZ2Nud3d2dnFzb3JoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk0OTY1MjAsImV4cCI6MjA4NTA3MjUyMH0.VoyI9OS9FpzNYzxd4sddmYdKj_mk2slm8BwyMWaYHRM"
 switch(0){case 0:return s}},
-b9r(){var s="https://buy.stripe.com/test_dRmaEYbO6eDvbwd8bo2Ry00"
+b9r(){var s="https://buy.stripe.com/test_9B6dRag4mbrjcAh8bo2Ry01"
 switch(0){case 0:return s}},
 b9s(){var s="https://billing.stripe.com/p/login/test_dRmaEYbO6eDvbwd8bo2Ry00"
 switch(0){case 0:return s}},
