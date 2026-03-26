@@ -34570,7 +34570,7 @@ $S:2}
 A.aSD.prototype={
 $1(a){var s=A.eH().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/052f31d115eceda8cbff1b3481fcde4330c4ae12/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb/":s)+a},
 $S:46}
 A.Ue.prototype={
 gB(a){var s=this.a
@@ -112724,7 +112724,7 @@ if(n.jN(p))return 0
 if(n.jM(o))return 1
 m=B.e.cc(o.fa(p).a,l)+1
 if(m<=1)return n.jM(p)?1:0
-return B.d.dT(B.e.cc(n.fa(p).a,l)/m,0,1)},
+return Math.pow(B.d.dT(B.e.cc(n.fa(p).a,l)/m,0,1),1.8)},
 asE(a){var s,r
 if(a==null)return!1
 s=this.LJ(a)
