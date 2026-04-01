@@ -32297,7 +32297,7 @@ a9q(){var s=0,r=A.t(t.H),q,p,o
 var $async$a9q=A.o(function(a,b){if(a===1)return A.p(b,r)
 for(;;)switch(s){case 0:if($.a8==null)A.azT()
 $.a8.toString
-$.b9.$1("\ud83d\ude80 Running in "+"dev".toUpperCase()+" mode")
+$.b9.$1("\ud83d\ude80 Running in "+"prod".toUpperCase()+" mode")
 $.b9.$1("\ud83d\udccd Supabase URL: "+A.aZi())
 $.b9.$1("\ud83d\udcf1 App Name: "+A.aZh())
 q=A.aZi()
@@ -34087,13 +34087,13 @@ break
 case 1:return A.q(q,r)}})
 return A.r($async$Cs,r)},
 aZi(){var s="https://ggihjvuqgcnwwvvqsorh.supabase.co"
-switch(0){case 0:return s}},
+switch(1){case 1:return s}},
 bat(){var s="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdnaWhqdnVxZ2Nud3d2dnFzb3JoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk0OTY1MjAsImV4cCI6MjA4NTA3MjUyMH0.VoyI9OS9FpzNYzxd4sddmYdKj_mk2slm8BwyMWaYHRM"
-switch(0){case 0:return s}},
-bas(){switch(0){case 0:return"https://billing.stripe.com/p/login/test_dRmaEYbO6eDvbwd8bo2Ry00"}},
+switch(1){case 1:return s}},
+bas(){switch(1){case 1:return"https://billing.stripe.com/p/login/cNi8wP3zh5cu4lUcQdc3m00"}},
 bar(){var s="https://your-sentry-dsn"
-switch(0){case 0:return s}},
-aZh(){switch(0){case 0:return"Vowy (DEV)"}},
+switch(1){case 1:return s}},
+aZh(){switch(1){case 1:return"Vowy"}},
 aVr(a){var s=a.length
 if(s===0||s>254)return!1
 s=$.b6o()
@@ -110585,7 +110585,7 @@ s[0]=s[0]*b}}
 A.aTz.prototype={
 $1(a){a.sPd(this.a)
 a.xr=1
-a.fr="dev"},
+a.fr="prod"},
 $S:681}
 A.aTA.prototype={
 $0(){if($.a8==null)A.azT()
@@ -114489,7 +114489,7 @@ g===$&&A.a()
 f=t.N
 e=A.a6(["Authorization","Bearer "+m],f,f)
 s=7
-return A.m(g.lq("create-portal-session",A.a6(["returnUrl","vowy://billing-return"],f,f),e),$async$lO)
+return A.m(g.lq("create-portal-session",A.a6(["returnUrl","vowy://billing-return","accessToken",m],f,f),e),$async$lO)
 case 7:l=a1
 if(a.e==null){s=1
 break}s=l.b!==200?8:9
@@ -114573,7 +114573,7 @@ h===$&&A.a()
 g=t.N
 f=A.a6(["Authorization","Bearer "+n],g,g)
 s=7
-return A.m(h.lq("create-checkout-session",A.a6(["successUrl","https://try-vowy.com","cancelUrl","https://try-vowy.com"],g,g),f),$async$xQ)
+return A.m(h.lq("create-checkout-session",A.a6(["successUrl","https://try-vowy.com","cancelUrl","https://try-vowy.com","accessToken",n],g,g),f),$async$xQ)
 case 7:m=a0
 if(a.e==null){s=1
 break}if(m.b!==200){if(t.P.b(m.a)){h=J.a7(m.a,"error")
