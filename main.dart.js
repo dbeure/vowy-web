@@ -105689,7 +105689,7 @@ if(n==null)n=A.b([],t.UB)
 s=J.ar(n)
 r=t.p
 p=A.cD(s.gad(n)?A.bi(A.b([A.e7(B.r3,B.fG,q,48),B.F,A.U("No tasks in Future Work for this category",q,q,q,q,A.bZ(q,q,B.cv,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),B.cE,q,q),B.aC,A.U("Go to Future Work page to add tasks to the backlog",q,q,q,q,A.bZ(q,q,B.la,q,q,q,q,q,q,q,q,12,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),B.cE,q,q)],r),B.o,B.j,B.Y):A.bi(A.b([A.U("Select tasks to move to "+p.BL(p.d),q,q,q,q,A.bZ(q,q,B.cv,q,q,q,q,q,q,q,q,14,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),B.F,new A.dL(B.F8,A.RH(q,new A.aJM(p,n,b,this.b),s.gC(n),q,q,!0),q)],r),B.o,B.j,B.Y),q,400)
-return A.dJ(A.b([A.d_(B.a38,q,q,new A.aJN(this.b),q,q)],r),p,B.Dy)},
+return A.dJ(A.b([A.d_(B.a37,q,q,new A.aJN(this.b),q,q)],r),p,B.Dy)},
 $C:"$3",
 $R:3,
 $S:666}
@@ -107137,7 +107137,7 @@ A.dD(s,s,!0,s,new A.aGs(this),a,s,!0,t.z)},
 B9(a){var s=null
 return new A.b_(B.JX,A.bA(A.b([B.LA,B.ai,A.cn(A.U(a,s,s,s,s,s,s,s,s),1)],t.p),B.o,B.j,B.n,0),s)},
 I(a){var s=null
-return A.u_(A.vB(B.hd,s,s,B.a37,s),A.h9(new A.aGF(this),t.i),B.cJ,s)}}
+return A.u_(A.vB(B.hd,s,s,B.a39,s),A.h9(new A.aGF(this),t.i),B.cJ,s)}}
 A.aGG.prototype={
 $1(a){var s=this.a.c
 s.toString
@@ -107291,7 +107291,7 @@ if(s!=null)return A.dv(A.bi(A.b([B.LL,B.F,A.U("Error: "+s,n,n,n,n,n,n,n,n),B.F,n
 r=A.x3(b.a,t.I3)
 s=this.a
 q=t.p
-p=A.b([new A.b_(B.h_,A.bA(A.b([B.a3M,B.jT,A.wy(B.h7,B.a39,new A.aGC(s,b,a))],q),B.o,B.j,B.n,0),n)],q)
+p=A.b([new A.b_(B.h_,A.bA(A.b([B.a3M,B.jT,A.wy(B.h7,B.a38,new A.aGC(s,b,a))],q),B.o,B.j,B.n,0),n)],q)
 o=b.gEh()
 o=o==null?n:o.e==="free"
 if(o===!0){o=A.b([B.LE,B.ai,A.cn(A.U("Guest projects: "+b.gR3()+"/2 free slots used",n,n,n,n,A.bZ(n,n,B.cc,n,n,n,n,n,n,n,n,13,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),1)],q)
@@ -116344,10 +116344,10 @@ B.a32=new A.ao("Creating projects requires a Pro subscription.",null,B.nU,null,n
 B.a33=new A.ao("New Wedding Project",null,null,null,null,null,null,null,null,null,null)
 B.a35=new A.ao("Maybe Later",null,null,null,null,null,null,null,null,null,null)
 B.Du=new A.ao("Got it",null,null,null,null,null,null,null,null,null,null)
-B.a37=new A.ao("Wedding Planning",null,null,null,null,null,null,null,null,null,null)
 B.Dv=new A.ao("Delete Task",null,null,null,null,null,null,null,null,null,null)
-B.a38=new A.ao("Close",null,null,null,null,null,null,null,null,null,null)
-B.a39=new A.ao("New Project",null,null,null,null,null,null,null,null,null,null)
+B.a37=new A.ao("Close",null,null,null,null,null,null,null,null,null,null)
+B.a38=new A.ao("New Project",null,null,null,null,null,null,null,null,null,null)
+B.a39=new A.ao("Plan your life",null,null,null,null,null,null,null,null,null,null)
 B.a3a=new A.ao("Move to Next Growth Spurt",null,null,null,null,null,null,null,null,null,null)
 B.a3b=new A.ao("Update",null,null,null,null,null,null,null,null,null,null)
 B.Dw=new A.ao("Add to Backlog",null,null,null,null,null,null,null,null,null,null)
