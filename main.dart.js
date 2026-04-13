@@ -30371,13 +30371,12 @@ s=s.i(a,"color")
 return A.aQg(s==null?"0xFFD8A7B1":s,p,r,q)},
 Q6(a,b,c,d,e,f,g,h,i,j,k,a0,a1,a2,a3){var s=j==null?B.dF.r8():j,r=d==null?A.b([],t.s):d,q=a3==null?A.b([],t.qT):a3,p=a2==null?A.b([],t.UB):a2,o=b==null?A.b([],t.UB):b,n=a==null?A.b([],t.UB):a,m=c==null?A.b([],t.fH):c,l=i==null?A.b([],t.AM):i
 return new A.jk(s,a0,g,h,r,q,a1,f,p,o,n,m,l,e==null?new A.aY(Date.now(),0,!1):e,k)},
-z_:function z_(a,b,c,d,e,f){var _=this
+z_:function z_(a,b,c,d,e){var _=this
 _.b=a
 _.c=b
-_.e=c
-_.f=d
-_.r=e
-_.y=f},
+_.f=c
+_.r=d
+_.y=e},
 ew:function ew(a,b){this.a=a
 this.b=b},
 dH:function dH(a,b,c,d){var _=this
@@ -31117,11 +31116,11 @@ _.d=a
 _.e=b
 _.f=c
 _.r="\ud83c\udf3f"
-_.x=_.w="free"
-_.y=null
-_.z=!0
-_.Q=!1
-_.as=d
+_.w="free"
+_.x=null
+_.y=!0
+_.z=!1
+_.Q=d
 _.c=_.a=null},
 aFX:function aFX(a,b){this.a=a
 this.b=b},
@@ -107015,14 +107014,14 @@ break
 case 7:case 1:return A.p(q,r)
 case 2:return A.o(o.at(-1),r)}})
 return A.q($async$wY,r)},
-ajq(){if(this.z)return"Loading..."
-var s=this.w==="pro"
-if(s&&this.x==="trialing")return"Pro trial"
-return s?"Pro":"Free"},
+ajq(){if(this.y)return"Loading..."
+var s=this.w
+if(s==="trialing")return"Pro trial"
+return s==="active"?"Pro":"Free"},
 Iu(a,b){var s=null,r=A.mZ(A.a_(36,B.K.m()>>>16&255,B.K.m()>>>8&255,B.K.m()&255),0,B.L,B.K9,new A.dA(A.cT(14),B.r),s)
 return A.cD(A.dG(A.U(a,s,s,s,s,s,s,s,s),b,r),s,1/0)},
-aeW(){var s=this
-if(s.w==="pro"||s.y!=null)return s.Iu("Manage subscription",new A.aFV(s))
+aeW(){var s=this,r=s.w
+if(r==="active"||r==="trialing"||s.x!=null)return s.Iu("Manage subscription",new A.aFV(s))
 return s.Iu("Upgrade to Pro",new A.aFW(s))},
 I(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null
 if($.aJ==null)$.aJ=new A.c8()
@@ -107031,7 +107030,7 @@ s===$&&A.a()
 s=s.gda().c
 r=s==null?g:s.r
 s=A.vB(B.hd,g,g,B.DA,g)
-if(h.z)q=B.kW
+if(h.y)q=B.kW
 else{q=A.a_(51,B.K.m()>>>16&255,B.K.m()>>>8&255,B.K.m()&255)
 p=A.kd(B.K,B.t,3)
 p=A.bS(g,A.dv(A.U(h.r,g,g,g,g,B.a0g,g,g,g),g,g),B.p,g,g,new A.bC(q,g,p,g,g,g,B.bi),g,120,g,g,g,g,120)
@@ -107043,40 +107042,38 @@ n=A.a_(41,B.K.m()>>>16&255,B.K.m()>>>8&255,B.K.m()&255)
 m=A.cT(16)
 l=h.r
 m=A.bS(g,A.dv(A.U(l,g,g,g,g,B.a1w,g,g,g),g,g),B.p,g,g,new A.bC(n,g,g,m,g,g,B.X),g,56,g,g,g,g,56)
-n=h.as
+n=h.Q
 k=A.Z(n).h("a5<1,dP<l>>")
 n=A.V(new A.a5(n,new A.aG5(),k),k.h("ah.E"))
 n=A.bA(A.b([m,B.dp,A.cn(A.oJ(B.MM,l,n,new A.aG6(h),g,t.N),1)],o),B.o,B.j,B.n,0)
 m=A.U("Current plan: "+h.ajq(),g,g,g,g,B.a_h,g,g,g)
 l=h.aeW()
 k=h.Iu("Change Password",h.gatp())
-j=h.Q?g:h.gasp()
+j=h.z?g:h.gasp()
 i=A.mZ(B.K,g,g,B.iG,g,g)
-q=A.iX(A.bi(A.b([q,B.eb,B.a3D,B.aC,p,B.hO,B.a3T,B.bx,B.a3K,B.CQ,B.a41,B.F,n,B.hO,B.a3E,B.aC,m,B.bx,l,B.hO,B.a43,B.aC,k,B.hO,A.cD(A.dG(h.Q?B.Y1:B.a3O,j,i),g,1/0)],o),B.S,B.j,B.n),g,B.x,B.h_,g,B.a0)}return A.u_(s,q,B.cJ,g)}}
+q=A.iX(A.bi(A.b([q,B.eb,B.a3D,B.aC,p,B.hO,B.a3T,B.bx,B.a3K,B.CQ,B.a41,B.F,n,B.hO,B.a3E,B.aC,m,B.bx,l,B.hO,B.a43,B.aC,k,B.hO,A.cD(A.dG(h.z?B.Y1:B.a3O,j,i),g,1/0)],o),B.S,B.j,B.n),g,B.x,B.h_,g,B.a0)}return A.u_(s,q,B.cJ,g)}}
 A.aFX.prototype={
 $0(){var s=this.a,r=this.b,q=J.ar(r),p=q.i(r,"username")
 if(p==null)p=""
 s.d.sca(0,p)
 p=q.i(r,"avatar_emoji")
 s.r=p==null?"\ud83c\udf3f":p
-p=q.i(r,"subscription_tier")
-s.w=p==null?"free":p
 p=q.i(r,"subscription_status")
-s.x=p==null?"free":p
-s.y=q.i(r,"stripe_subscription_id")
-s.z=!1},
+s.w=p==null?"free":p
+s.x=q.i(r,"stripe_subscription_id")
+s.y=!1},
 $S:0}
 A.aFY.prototype={
-$0(){return this.a.z=!1},
+$0(){return this.a.y=!1},
 $S:0}
 A.aFZ.prototype={
-$0(){return this.a.z=!1},
+$0(){return this.a.y=!1},
 $S:0}
 A.aG_.prototype={
-$0(){return this.a.Q=!0},
+$0(){return this.a.z=!0},
 $S:0}
 A.aG0.prototype={
-$0(){return this.a.Q=!1},
+$0(){return this.a.z=!1},
 $S:0}
 A.aG3.prototype={
 $1(a){var s=null,r=this.a,q=t.p
@@ -107302,8 +107299,9 @@ s=this.a
 q=t.p
 p=A.b([new A.b_(B.h_,A.bA(A.b([B.a3M,B.jT,A.wy(B.h7,B.a38,new A.aGC(s,b,a))],q),B.o,B.j,B.n,0),n)],q)
 o=b.gEh()
-o=o==null?n:o.e==="free"
-if(o===!0){o=A.b([B.LE,B.ai,A.cn(A.U("Guest projects: "+b.gR3()+"/2 free slots used",n,n,n,n,A.c_(n,n,B.cc,n,n,n,n,n,n,n,n,13,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),1)],q)
+if(o==null)o=n
+else{o=o.f
+o=!(o==="trialing"||o==="active")}if(o===!0){o=A.b([B.LE,B.ai,A.cn(A.U("Guest projects: "+b.gR3()+"/2 free slots used",n,n,n,n,A.c_(n,n,B.cc,n,n,n,n,n,n,n,n,13,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),1)],q)
 if(b.gR3()>=2)o.push(A.d_(B.a4h,n,n,new A.aGD(s,a),n,A.GZ(n,n,n,n,n,n,n,n,n,n,n,n,B.lx,n,n,n,n,n,n,n)))
 B.b.M(p,A.b([A.bS(n,A.bA(o,B.o,B.j,B.n,0),B.p,B.dI,n,n,n,n,n,B.Kh,n,n,n)],q))}p.push(B.q5)
 o=r.length
@@ -107321,9 +107319,13 @@ A.aGB.prototype={
 $0(){return this.a.qO()},
 $S:0}
 A.aGC.prototype={
-$0(){var s=this.b.gEh(),r=s==null?null:s.e==="pro",q=this.a,p=this.c
-if(r===!0)q.atl(p)
-else q.Zt(p)},
+$0(){var s,r,q,p=this.b.gEh()
+if(p==null)s=null
+else{s=p.f
+s=s==="trialing"||s==="active"}r=this.a
+q=this.c
+if(s===!0)r.atl(q)
+else r.Zt(q)},
 $S:0}
 A.aGD.prototype={
 $0(){return this.a.Zt(this.b)},
@@ -107610,8 +107612,8 @@ break
 case 5:return A.p(null,r)
 case 1:return A.o(p.at(-1),r)}})
 return A.q($async$qO,r)},
-wF(){var s=0,r=A.r(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
-var $async$wF=A.t(function(a2,a3){if(a2===1){o.push(a3)
+wF(){var s=0,r=A.r(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
+var $async$wF=A.t(function(a1,a2){if(a1===1){o.push(a2)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
 return A.m(n.Bs(),$async$wF)
@@ -107624,7 +107626,7 @@ g=m
 if((g==null?null:g.z)==null){s=1
 break}s=8
 return A.m(h.d_("profiles").vD(0,"id, username, avatar_emoji, subscription_tier, subscription_status, stripe_subscription_id, license_key, activated_at, updated_at"),$async$wF)
-case 8:l=a3
+case 8:l=a2
 h=n.b
 h.a7(0)
 for(g=J.bh(l);g.B();){k=g.gN(g)
@@ -107640,20 +107642,19 @@ e=m.z
 e.toString
 d=J.a8(k,"username")
 J.a8(k,"avatar_emoji")
-c=J.a8(k,"subscription_tier")
+J.a8(k,"subscription_tier")
+c=J.a8(k,"subscription_status")
 if(c==null)c="free"
-b=J.a8(k,"subscription_status")
-if(b==null)b="free"
-a=J.a8(k,"stripe_subscription_id")
+b=J.a8(k,"stripe_subscription_id")
 J.a8(k,"license_key")
 if(J.a8(k,"activated_at")!=null)A.eM(J.a8(k,"activated_at"))
-h.n(0,f,new A.z_(e,d,c,b,a,J.a8(k,"updated_at")!=null?A.eM(J.a8(k,"updated_at")):null))}}n.atY()
+h.n(0,f,new A.z_(e,d,c,b,J.a8(k,"updated_at")!=null?A.eM(J.a8(k,"updated_at")):null))}}n.atY()
 p=2
 s=6
 break
 case 4:p=3
-a1=o.pop()
-i=A.a6(a1)
+a0=o.pop()
+i=A.a6(a0)
 A.by().$1("Error loading user profiles: "+A.k(i))
 s=6
 break
@@ -107668,15 +107669,18 @@ s.f=r
 s.e=null
 s.tf()
 s.ac()},
-Tm(a){var s,r
-if(a!=null){s=!1
-if(a.e==="free")if(a.r!=null){s=a.f
-s=s==="past_due"||s==="unpaid"}s=!s}else s=!0
+Tm(a){var s,r,q
+if(a!=null){s=a.f
+r=!1
+if(!(s==="trialing"||s==="active"))if(a.r!=null)s=s==="past_due"||s==="unpaid"
+else s=r
+else s=r
+s=!s}else s=!0
 if(s)return null
 s=a.y
-r=s==null?null:s.hl()
-if(r==null)r="no-updated-at"
-return a.f+":"+A.k(a.r)+":"+r},
+q=s==null?null:s.hl()
+if(q==null)q="no-updated-at"
+return a.f+":"+A.k(a.r)+":"+q},
 atY(){var s=this,r=s.Tm(s.gEh())
 if(r==null){s.e=null
 return}if(s.f===r)return
@@ -108628,8 +108632,8 @@ return A.m(q.gda().iU(),$async$iU)
 case 2:return A.p(null,r)}})
 return A.q($async$iU,r)},
 Aj(a){return this.a7m(a)},
-a7m(a){var s=0,r=A.r(t.eM),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e,d,c,b
-var $async$Aj=A.t(function(a0,a1){if(a0===1){o.push(a1)
+a7m(a){var s=0,r=A.r(t.eM),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e,d,c
+var $async$Aj=A.t(function(b,a0){if(b===1){o.push(a0)
 s=p}for(;;)switch(s){case 0:if(J.eZ(a)){q=A.A(t.N,t.q5)
 s=1
 break}p=4
@@ -108640,7 +108644,7 @@ h=t.N
 g=t.z
 s=7
 return A.m(i.zB("get_users_by_emails",A.aa(["email_list",a],h,g),g),$async$Aj)
-case 7:n=a1
+case 7:n=a0
 if(n==null||!t.j.b(n)){A.by().$1("\u26a0\ufe0f No response from get_users_by_emails")
 q=A.A(h,t.q5)
 s=1
@@ -108651,15 +108655,14 @@ if(k==null)continue
 A.bu(J.a8(l,"id"))
 h=A.cj(J.a8(l,"username"))
 A.cj(J.a8(l,"avatar_emoji"))
-g=A.cj(J.a8(l,"subscription_tier"))
+A.cj(J.a8(l,"subscription_tier"))
+g=A.cj(J.a8(l,"subscription_status"))
 if(g==null)g="free"
-f=A.cj(J.a8(l,"subscription_status"))
-if(f==null)f="free"
-e=A.cj(J.a8(l,"stripe_subscription_id"))
+f=A.cj(J.a8(l,"stripe_subscription_id"))
 A.cj(J.a8(l,"license_key"))
 if(J.a8(l,"activated_at")!=null)A.eM(A.bu(J.a8(l,"activated_at")))
-d=J.a8(l,"updated_at")!=null?A.eM(A.bu(J.a8(l,"updated_at"))):null
-J.fg(m,k,new A.z_(k,h,g,f,e,d))}A.by().$1("\u2713 Loaded "+m.a+" user profiles")
+e=J.a8(l,"updated_at")!=null?A.eM(A.bu(J.a8(l,"updated_at"))):null
+J.fg(m,k,new A.z_(k,h,g,f,e))}A.by().$1("\u2713 Loaded "+m.a+" user profiles")
 q=m
 s=1
 break
@@ -108667,8 +108670,8 @@ p=2
 s=6
 break
 case 4:p=3
-b=o.pop()
-j=A.a6(b)
+c=o.pop()
+j=A.a6(c)
 A.by().$1("\u274c Error fetching user profiles: "+A.k(j))
 q=A.A(t.N,t.q5)
 s=1
